@@ -4,8 +4,8 @@
   
  ## Screenshot of Genetic Plotter
 ![img1](https://user-images.githubusercontent.com/27083085/30072362-c01dff98-9272-11e7-8dc9-b45231d4d96d.jpg)
-![img2](https://user-images.githubusercontent.com/27083085/30072366-c40304e6-9272-11e7-863b-fbbf341008a8.jpg)
 ![img3](https://user-images.githubusercontent.com/27083085/30074156-114e6564-9279-11e7-8370-f0db2b86c5c0.jpg)
+![img2](https://user-images.githubusercontent.com/27083085/30072366-c40304e6-9272-11e7-863b-fbbf341008a8.jpg)
 ![img4](https://user-images.githubusercontent.com/27083085/30074161-162433ca-9279-11e7-8a56-bd07195a5316.jpg)
 
 Features:
