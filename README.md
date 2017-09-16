@@ -12,7 +12,7 @@ Features:
 
 -Can open more then one genome file at same time
 
--Can make calculations with triplets and triplets or any other subsequences
+-Can make calculations with triplets and tetraplets or any other subsequences
 
 -Can use color selector for curves in a chart
 
