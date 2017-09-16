@@ -21,7 +21,7 @@ class ChartField(QStackedWidget):
 
         self.chart.setAxisX(XAxis())
         self.chart.setAxisY(YAxis())
-
+        self.chart.setTitle("<h3>Frequency of occurrence and relative position</h3>")
         self.view = QChartView(self.chart)
         self.view.setRenderHint(QPainter.Antialiasing)
         self.view.setStyleSheet("background:#cccccc; margin: 0px; padding: 0px;  border: 0px solid #000000;")
@@ -111,6 +111,7 @@ class XAxis(QValueAxis):
         super().__init__()
         self.setRange(0,1)
         self.setTickCount(6)
+        self.setTitleText("<h3>Relative intragenic position</h3>")
 
 class YAxis(QValueAxis):
     def __init__(self, parent=None):
@@ -118,6 +119,7 @@ class YAxis(QValueAxis):
         self.setMin(0)
         self.setMax(100)
         self.setLabelFormat("%6.0f ")
+        self.setTitleText("<h3>Count</h3>")
 
         
 
