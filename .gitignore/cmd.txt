@@ -1,0 +1,1 @@
+E:\Python35_32\Scripts\pyInstaller.exe -n "Genetic Plotter" --onefile --icon=icon.ico --name GenPlotter --windowed main.py

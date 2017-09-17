@@ -39,7 +39,7 @@ class GenConst():
     
         f = open(path,'r')
         for line in f:
-            if line.startswith('>lcl'):
+            if line.startswith('>'):
                 if self.gene_str and self.check(self.gene_str):
                     self.genes.append(self.gene_str)
                 self.gene_str = ''
